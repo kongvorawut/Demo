@@ -34,6 +34,18 @@ class Fragment2: BaseFragment(), Fragment2Contract.View {
 		}
 	}
 
+	override fun showLoading() {
+
+	}
+
+	override fun hideLoading() {
+
+	}
+
+	override fun showError() {
+
+	}
+
 	override fun onDestroyView() {
 		super.onDestroyView()
 		binding = null

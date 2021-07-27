@@ -7,5 +7,5 @@ import retrofit2.http.GET
 
 interface Service {
 	@GET("catapi/rest/")
-	fun randomCat(): Observable<Cat>
+	fun randomCat(): Observable<Response<Cat>>
 }

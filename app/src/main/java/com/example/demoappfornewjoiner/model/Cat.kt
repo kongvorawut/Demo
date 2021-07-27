@@ -5,13 +5,13 @@ import com.google.gson.annotations.SerializedName
 
 data class Cat(
     @SerializedName("id")
-    val id: Int,
+    val id: Int = 0,
     @SerializedName("url")
-    val url: String,
+    val url: String = "",
     @SerializedName("webpurl")
-    val webpUrl: String,
+    val webpUrl: String = "",
     @SerializedName("x")
-    val x: Double,
+    val x: Double = 0.0,
     @SerializedName("y")
-    val y: Double
+    val y: Double = 0.0
 )
